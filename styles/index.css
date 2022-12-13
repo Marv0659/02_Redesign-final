@@ -146,6 +146,7 @@ li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .stresset {
   width: 100%;
@@ -155,6 +156,7 @@ li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .kalk {
   width: 100%;
@@ -164,6 +166,7 @@ li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .vitaminer {
   width: 100%;
@@ -222,7 +225,6 @@ img.scaled {
   box-sizing: border-box;
   width: 80%;
   margin: auto;
-  margin: auto 20% auto auto;
 }
 
 .box2 {
@@ -235,7 +237,6 @@ img.scaled {
   cursor: pointer;
   box-sizing: border-box;
   width: 80%;
-  margin: auto auto auto 20%;
 }
 
 .tekst-box {
@@ -424,7 +425,7 @@ header {
     cursor: pointer;
     box-sizing: border-box;
     width: 50%;
-    margin: auto auto auto 10%;
+    margin: auto auto 10%;
   }
 
   .tekst-box {
