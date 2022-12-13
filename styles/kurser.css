@@ -56,6 +56,10 @@ button {
   font-weight: bold;
 }
 
+.h4_overskrift {
+  font-size: 40px;
+}
+
 @media (max-width: 800px) {
   img {
     width: 100%;
@@ -90,36 +94,13 @@ button {
     width: 100%;
   }
 
-  h1 {
-    font-family: "Rhodium Libre", serif;
-    text-align: center;
-  }
-
-  h2 {
-    font-family: "Rhodium Libre", serif;
-    margin: 20px;
-    margin-left: 30px;
-    padding-top: 30px;
-  }
   .tilbud {
     text-align: center;
-    background-color: white;
+    font-size: 1rem;
+    background-color: #deedf0;
   }
 
-  p {
-    margin: 20px;
-    margin-left: 30px;
-    font-family: "Open Sans", sans-serif;
+  .h4_overskrift {
+    font-size: 20px;
   }
-}
-
-button {
-  margin: 20px;
-  margin-left: 30px;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #bf6341;
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
 }
