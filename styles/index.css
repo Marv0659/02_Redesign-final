@@ -73,7 +73,8 @@ li a:hover {
 }
 
 .kategorier-forside {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   gap: 3.1%;
   margin-bottom: 30px;
@@ -125,8 +126,9 @@ li a:hover {
 }
 .rectangle6 {
   height: 150px;
-  width: 200px;
-  background-color: #555;
+  width: 150px;
+  background-image: url("/billeder/kurser.webp");
+  object-fit: cover;
 }
 .rectangle7 {
   height: 150px;
@@ -134,6 +136,24 @@ li a:hover {
   background-color: #555;
 }
 .rectangle8 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+
+.rectangle9 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+
+.rectangle10 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+
+.rectangle100 {
   height: 150px;
   width: 200px;
   background-color: #555;
@@ -185,7 +205,7 @@ img.scaled {
   display: block;
   position: relative;
   aspect-ratio: 7/6;
-  background-image: url("/billeder/akupunkt.webp");
+  background-image: url("/billeder/akupunktur_forside-1.webp");
   background-size: cover;
   border-radius: 20px;
   cursor: pointer;
@@ -199,7 +219,7 @@ img.scaled {
   display: block;
   position: relative;
   aspect-ratio: 7/6;
-  background-image: url("/billeder/mangler_du_c-vitamin.webp");
+  background-image: url("/billeder/hold_i_nakken.webp");
   background-size: cover;
   border-radius: 20px;
   cursor: pointer;
@@ -265,7 +285,7 @@ header {
   .kategorier-forside {
     display: flex;
     justify-content: center;
-    gap: 3.1%;
+    gap: 10%;
   }
 
   .vi-tilbyder-forside {
@@ -294,7 +314,7 @@ header {
   .rectangle2 {
     height: 200px;
     width: 250px;
-    background-image: url("/billeder/kurser.webp");
+    background-image: url("/billeder/vitaminer_kosttilskud.webp");
     object-fit: cover;
   }
   .rectangle3 {
@@ -360,7 +380,7 @@ header {
     caption-side: top;
   }
   img.scaled {
-    width: 100%;
+    width: 50%;
   }
 
   .kasser {
