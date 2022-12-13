@@ -1,0 +1,408 @@
+.main-forside {
+  max-width: 1000px;
+  overflow: hidden;
+
+  margin-inline: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #60b2b8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.MedicinForside {
+  margin: 50px;
+}
+
+.forside-div,
+#MedicinForside {
+  justify-content: center;
+  display: grid;
+  grid-row: span 3;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.Forside-div-pic {
+  display: grid;
+  grid-area: 1/2/7/7;
+  z-index: 1;
+  grid-area: 1/1/7/8;
+}
+
+.shapeDiv {
+  display: grid;
+  grid-area: 4/1/6/4;
+  z-index: 1;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  background-color: #c7d9db;
+}
+
+.forsideBeskrivelse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kategorier-forside {
+  display: flex;
+  justify-content: center;
+  gap: 3.1%;
+  margin-bottom: 30px;
+}
+
+.vi-tilbyder-forside {
+  display: flex;
+  margin: 20px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: space-between;
+  gap: 10%;
+}
+
+.vi-tilbyder-forside2 {
+  display: flex;
+  margin: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: space-between;
+  gap: 10%;
+}
+
+.rectangle1 {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle2 {
+  height: 200px;
+  width: 250px;
+  background-image: url("/billeder/kurser.webp");
+  object-fit: cover;
+}
+.rectangle3 {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle4 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle5 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle6 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle7 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle8 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+
+.about {
+  margin-top: 20px;
+  background-color: #60b2b8cd;
+  height: 100px;
+  width: 100%;
+}
+
+.teatreepic {
+  width: 20%;
+}
+.kurserpic {
+  width: 20%;
+}
+
+figure {
+  float: right;
+  text-align: center;
+  text-indent: 0;
+  margin-bottom: 20px;
+}
+figure {
+  display: table;
+  cursor: pointer;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  font-size: larger;
+}
+img.scaled {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.kasser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-inline: auto;
+  align-self: center;
+}
+
+.box1 {
+  display: block;
+  position: relative;
+  aspect-ratio: 7/6;
+  background-image: url("/billeder/akupunkt.webp");
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+  margin: auto 20% auto auto;
+}
+
+.box2 {
+  display: block;
+  position: relative;
+  aspect-ratio: 7/6;
+  background-image: url("/billeder/mangler_du_c-vitamin.webp");
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto auto auto 20%;
+}
+
+.tekst-box {
+  display: grid;
+  background-color: #c7d9db;
+  aspect-ratio: 3/1;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .MedicinForside {
+    margin: 50px;
+  }
+
+  .forside-div,
+  #MedicinForside {
+    justify-content: center;
+    display: grid;
+    grid-row: span 3;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    align-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .Forside-div-pic {
+    display: grid;
+    grid-area: 1/2/7/7;
+    z-index: -1;
+  }
+
+  .shapeDiv {
+    display: grid;
+    grid-area: 4/1/6/3;
+    z-index: 1;
+
+    background-color: #60b2b8cd;
+  }
+
+  .forsideBeskrivelse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kategorier-forside {
+    display: flex;
+    justify-content: center;
+    gap: 3.1%;
+  }
+
+  .vi-tilbyder-forside {
+    display: flex;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: space-between;
+    gap: 10%;
+  }
+
+  .vi-tilbyder-forside2 {
+    display: flex;
+    margin: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: space-between;
+    gap: 10%;
+  }
+
+  .rectangle1 {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+  }
+  .rectangle2 {
+    height: 200px;
+    width: 250px;
+    background-image: url("/billeder/kurser.webp");
+    object-fit: cover;
+  }
+  .rectangle3 {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+  }
+  .rectangle4 {
+    height: 150px;
+    width: 200px;
+    background-color: #555;
+  }
+  .rectangle5 {
+    height: 150px;
+    width: 200px;
+    background-color: #555;
+  }
+  .rectangle6 {
+    height: 150px;
+    width: 200px;
+    background-color: #555;
+  }
+  .rectangle7 {
+    height: 150px;
+    width: 200px;
+    background-color: #555;
+  }
+  .rectangle8 {
+    height: 150px;
+    width: 200px;
+    background-color: #555;
+  }
+
+  .about {
+    margin-top: 20px;
+    background-color: #60b2b8cd;
+    height: 100px;
+    width: 100%;
+  }
+
+  .teatreepic {
+    width: 20%;
+  }
+  .kurserpic {
+    width: 20%;
+  }
+
+  figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  figure {
+    display: table;
+    cursor: pointer;
+  }
+
+  figcaption {
+    display: table-caption;
+    caption-side: top;
+  }
+  img.scaled {
+    width: 100%;
+  }
+
+  .kasser {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-inline: auto;
+    align-self: center;
+  }
+
+  .box1 {
+    display: block;
+    position: relative;
+    aspect-ratio: 5/7;
+    background-image: url("/billeder/akupunkt.webp");
+    background-size: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    margin: auto 10% auto auto;
+  }
+
+  .box2 {
+    display: block;
+    position: relative;
+    aspect-ratio: 5/7;
+    background-image: url("/billeder/vitaminer.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto auto auto 10%;
+  }
+
+  .tekst-box {
+    display: grid;
+    background-color: #60b2b8df;
+    aspect-ratio: 3/1;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+  }
+}

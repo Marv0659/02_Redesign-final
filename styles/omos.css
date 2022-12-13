@@ -1,0 +1,18 @@
+body {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+h1 {
+  text-align: center;
+  font-family: "Rhodium Libre", serif;
+  color: #707070;
+}
+
+p {
+  margin-bottom: 100px;
+  font-family: "Open Sans", sans-serif;
+  color: #707070;
+}
+.boks {
+  background-color: #deeef0;
+}
