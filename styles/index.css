@@ -221,6 +221,10 @@ img.scaled {
   align-items: center;
 }
 
+header {
+  margin-bottom: 17px;
+}
+
 @media (max-width: 700px) {
   .MedicinForside {
     margin: 50px;
