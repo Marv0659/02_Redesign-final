@@ -39,6 +39,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
 .ret {
@@ -51,6 +52,9 @@ figcaption {
   font-family: "Rhodium Libre", serif;
   text-align: center;
 }
+h1 {
+  background-color: #c7d9db;
+}
 
 h3,
 h4 {
@@ -62,7 +66,7 @@ h2 {
   background-color: #c7d9db;
   padding: 20px;
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -278,7 +282,7 @@ footer {
 
   button {
     color: white;
-    background-color: #bf6341;
+    background-color: var(--button-color);
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
