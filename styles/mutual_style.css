@@ -41,6 +41,10 @@ html {
   align-items: center;
 }
 
+.ret {
+  width: 100%;
+}
+
 h1,
 h2,
 figcaption {
