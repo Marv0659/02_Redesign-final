@@ -236,6 +236,7 @@ img.scaled {
   cursor: pointer;
   box-sizing: border-box;
   width: 80%;
+  margin: auto;
 }
 
 .tekst-box {
@@ -253,6 +254,12 @@ img.scaled {
 
 header {
   margin-bottom: 17px;
+}
+
+.h4_forside {
+  margin-top: 60px;
+  background-color: #deedf0;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 700px) {

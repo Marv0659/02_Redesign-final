@@ -34,6 +34,7 @@ html {
   justify-content: center;
   align-items: center;
   margin: 20px;
+  display: none;
 }
 
 .ret {
@@ -50,10 +51,15 @@ h1 {
   background-color: #c7d9db;
 }
 
-h3,
+h3 {
+  font-family: "Rhodium Libre", serif;
+  font-size: 10px;
+}
+
 h4 {
   font-family: "Rhodium Libre", serif;
   font-size: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -81,7 +87,6 @@ main {
   background-color: white;
   margin-left: 50px;
   margin-right: 50px;
-  padding-top: 50px;
 }
 
 footer {
@@ -146,6 +151,17 @@ footer {
 .footcol .socials a:hover {
   scale: 1.05;
   translate: 0 -10%;
+}
+
+button {
+  color: white;
+  background-color: var(--button-color);
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
 }
 
 @media (max-width: 700px) {
@@ -283,5 +299,12 @@ footer {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     font-weight: bold;
+  }
+
+  .forsideBeskrivelse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
   }
 }
