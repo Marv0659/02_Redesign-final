@@ -30,6 +30,10 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 0.7rem;
 }
+video {
+  width: 100%;
+  filter: blur(1px);
+}
 
 body {
   background-color: #fafafa;
