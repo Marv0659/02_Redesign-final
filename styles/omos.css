@@ -1,19 +1,71 @@
+.forside-div,
+#MedicinForside {
+  justify-content: center;
+  display: grid;
+  grid-row: span 3;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.Forside-div-pic {
+  display: grid;
+  grid-area: 1/2/7/7;
+  z-index: 1;
+  grid-area: 1/1/7/8;
+}
+
+.shapeDiv {
+  display: grid;
+  grid-area: 4/1/6/4;
+  z-index: 1;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  background-color: #c7d9db;
+}
+
+.forsideBeskrivelse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.omos {
+  width: 100%;
+}
+
 h1 {
   text-align: center;
   font-family: "Rhodium Libre", serif;
-  color: #707070;
+  color: #000000;
 }
-
+.Forside-div-pic {
+  display: grid;
+  grid-area: 1/2/7/7;
+  z-index: 1;
+  grid-area: 1/1/7/8;
+}
 p {
-  margin-bottom: 100px;
   font-family: "Open Sans", sans-serif;
-  color: #707070;
+  color: #000000;
 }
 .video {
   background-color: #deeef0;
+  margin-top: 100px;
 }
 .kvadrat {
   display: none;
+}
+.ejer {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  color: #696969;
+}
+h3 {
+  margin-top: 40px;
 }
 
 @media (max-width: 700px) {
@@ -26,5 +78,11 @@ p {
   .kvadrat {
     display: block;
     margin: auto;
+  }
+  .ejer {
+    margin-top: -10px;
+  }
+  h3 {
+    margin-left: 20px;
   }
 }
