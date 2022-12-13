@@ -13,6 +13,22 @@ p {
   font-family: "Open Sans", sans-serif;
   color: #707070;
 }
-.boks {
+.video {
   background-color: #deeef0;
+}
+.kvadrat {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  p {
+    margin: 20px;
+  }
+  .video {
+    display: none;
+  }
+  .kvadrat {
+    display: block;
+    margin: auto;
+  }
 }
