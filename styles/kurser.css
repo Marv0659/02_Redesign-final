@@ -10,15 +10,9 @@ img {
   margin: 10px;
 }
 
-main {
-  max-width: 1000px;
-  margin-inline: auto;
-}
-
 .box1,
 .box2,
 .box3 {
-  width: 100%;
   display: block;
   background-color: #deeef0;
   border-radius: 20px;
@@ -43,6 +37,7 @@ h2 {
 }
 .tilbud {
   text-align: center;
+  font-size: 1.7rem;
 }
 
 p {
@@ -108,6 +103,7 @@ button {
   }
   .tilbud {
     text-align: center;
+    background-color: white;
   }
 
   p {
