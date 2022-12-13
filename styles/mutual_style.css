@@ -153,7 +153,6 @@ footer {
     background-color: white;
     margin-left: 200px;
     margin-right: 200px;
-    padding-top: 100px;
   }
 
   ul {
@@ -176,7 +175,7 @@ footer {
     color: white;
     text-align: center;
     overflow: hidden;
-
+    font-family: "Rhodium Libre", serif;
     padding: 5px 5px;
     margin: 15px;
     text-decoration: none;
