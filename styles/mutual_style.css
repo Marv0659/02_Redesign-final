@@ -10,12 +10,6 @@ html {
 #MedicinForside {
   justify-content: center;
   display: grid;
-  grid-row: span 3;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(7, 1fr);
-  align-content: center;
-  width: 100%;
-  height: auto;
 }
 
 .Forside-div-pic {
@@ -39,6 +33,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
+  display: none;
 }
 
 .ret {
@@ -51,18 +47,33 @@ figcaption {
   font-family: "Rhodium Libre", serif;
   text-align: center;
 }
+h1 {
+  background-color: #c7d9db;
+  font-size: 1rem;
+}
 
-h3,
+h3 {
+  font-family: "Rhodium Libre", serif;
+  font-size: 10px;
+}
+
 h4 {
   font-family: "Rhodium Libre", serif;
   font-size: 10px;
+  text-align: center;
 }
 
 h2 {
   background-color: #c7d9db;
   padding: 20px;
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+h5 {
+  font-family: "Rhodium Libre", serif;
+  font-size: 20px;
+  color: white;
 }
 
 p {
@@ -83,7 +94,6 @@ main {
   background-color: white;
   margin-left: 50px;
   margin-right: 50px;
-  padding-top: 50px;
 }
 
 footer {
@@ -150,6 +160,63 @@ footer {
   translate: 0 -10%;
 }
 
+button {
+  color: white;
+  background-color: var(--button-color);
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #60b2b8;
+  align-items: CENTER;
+  margin: -16px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Rhodium Libre", serif;
+  padding: 5px 5px;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.logo {
+  width: 7%;
+  height: auto;
+  display: block;
+}
+
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
 @media (max-width: 700px) {
   .footcol {
     width: 100%;
@@ -168,7 +235,8 @@ footer {
   }
 
   h3,
-  h4 {
+  h4,
+  figcaption {
     font-family: "Rhodium Libre", serif;
     font-size: 20px;
   }
@@ -278,12 +346,19 @@ footer {
 
   button {
     color: white;
-    background-color: #bf6341;
+    background-color: var(--button-color);
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     font-weight: bold;
+  }
+
+  .forsideBeskrivelse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
   }
 }
