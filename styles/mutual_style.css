@@ -125,6 +125,7 @@ footer {
   font-size: 1.5rem;
   color: white;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 .footcol h4 {
@@ -188,6 +189,18 @@ select,
 @media (max-width: 700px) {
   .footcol {
     width: 100%;
+  }
+
+  .footcol p {
+    font-size: 1rem;
+  }
+
+  .footcol .adresse {
+    font-size: 1rem;
+  }
+
+  .footcol h4 {
+    font-size: 1.3rem;
   }
 }
 
