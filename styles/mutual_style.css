@@ -125,6 +125,7 @@ footer {
   font-size: 1.5rem;
   color: white;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 .footcol h4 {
@@ -189,6 +190,18 @@ select,
   .footcol {
     width: 100%;
   }
+
+  .footcol p {
+    font-size: 1rem;
+  }
+
+  .footcol .adresse {
+    font-size: 1rem;
+  }
+
+  .footcol h4 {
+    font-size: 1.3rem;
+  }
 }
 
 @media (min-width: 700px) {
@@ -235,6 +248,7 @@ select,
   nav .navibar {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     display: flex;
     flex-direction: row;
