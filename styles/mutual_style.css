@@ -179,11 +179,16 @@ button {
   display: block;
 }
 
-select,
-#lang {
+.sprog {
   display: grid;
-  justify-content: end;
-  gap: 100px;
+  grid-template-rows: 1fr;
+}
+
+.lang {
+  display: flex;
+  flex-direction: row;
+  color: var(--button-color);
+  background-color: white;
 }
 
 @media (max-width: 700px) {
