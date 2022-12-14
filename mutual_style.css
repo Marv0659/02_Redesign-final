@@ -1,0 +1,506 @@
+html {
+  --button-color: #bf6341;
+  --secondary-color: #c8d9db;
+  --header-color: #65bfbf;
+  --footer-color: #c7d9db;
+  --text-box-color: #deedf0;
+}
+
+.forside-div,
+#MedicinForside {
+  justify-content: center;
+  display: grid;
+}
+
+.Forside-div-pic {
+  display: grid;
+  grid-area: 1/2/7/7;
+  z-index: 1;
+  grid-area: 1/1/7/8;
+}
+
+.shapeDiv {
+  display: grid;
+  grid-area: 4/1/6/4;
+  z-index: 1;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  background-color: #c7d9db;
+}
+
+.forsideBeskrivelse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  display: none;
+}
+
+.ret {
+  width: 100%;
+}
+
+h1,
+h2,
+figcaption {
+  font-family: "Rhodium Libre", serif;
+  text-align: center;
+}
+h1 {
+  background-color: #c7d9db;
+  font-size: 1rem;
+}
+
+h3 {
+  font-family: "Rhodium Libre", serif;
+  font-size: 10px;
+}
+
+h4 {
+  font-family: "Rhodium Libre", serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+h2 {
+  background-color: #c7d9db;
+  padding: 20px;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+h5 {
+  font-family: "Rhodium Libre", serif;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+}
+.forside-div video {
+  width: 100%;
+  filter: blur(1px);
+  margin-top: 150px;
+}
+
+body {
+  background-color: #fafafa;
+  max-width: 100%;
+}
+
+main {
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer {
+  background-color: #c8d9db;
+  margin-top: 40px;
+}
+
+.footcon {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footcol {
+  width: 33%;
+}
+
+.footcol p {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+}
+
+.footcol .adresse {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footcol h4 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: white;
+  text-align: left;
+}
+
+.kasse {
+  background-color: white;
+  width: 20%;
+  height: 1.5%;
+  margin: 20px 20px 20px 0;
+  border-radius: 4px;
+}
+
+.footcol .socials a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 87px;
+  border-radius: 50%;
+  color: black;
+  transition: all 0.5s ease;
+}
+
+.footcol .socials a:hover {
+  scale: 1.05;
+  translate: 0 -10%;
+}
+
+button {
+  color: white;
+  background-color: var(--button-color);
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  width: 7%;
+  height: auto;
+  display: block;
+}
+
+.sprog {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.lang {
+  display: flex;
+  flex-direction: row;
+  color: var(--button-color);
+  background-color: white;
+}
+
+@media (max-width: 700px) {
+  .footcol {
+    width: 100%;
+  }
+
+  .footcol p {
+    font-size: 1rem;
+  }
+
+  .footcol .adresse {
+    font-size: 1rem;
+  }
+
+  .footcol h4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 700px) {
+  h1,
+  h2 {
+    font-family: "Rhodium Libre", serif;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 8.5%;
+    margin-bottom: 22px;
+  }
+
+  h3,
+  h4,
+  figcaption {
+    font-family: "Rhodium Libre", serif;
+    font-size: 20px;
+  }
+
+  h2 {
+    background-color: #c7d9db;
+    padding: 20px;
+    font-size: 2rem;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+  }
+
+  body {
+    background-color: #fafafa;
+  }
+
+  main {
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  nav .navibar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #60b2b8;
+    z-index: 100;
+  }
+
+  nav .navibar a {
+    text-decoration: none;
+    color: white;
+    font-family: "Rhodium Libre", serif;
+    font-size: 20px;
+    transition: all 0.1s ease;
+  }
+
+  nav .navibar a:hover {
+    filter: drop-shadow(0px 10px 4px black);
+    translate: 0 -10%;
+  }
+
+  nav .navibar .logo {
+    width: 6%;
+    margin: 10px 0 10px 0;
+  }
+
+  nav .navibar .logo:hover {
+    filter: drop-shadow(0 0 0);
+    translate: 0 0;
+  }
+
+  button {
+    color: white;
+    background-color: var(--button-color);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .forsideBeskrivelse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar .header {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.navbar {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #60b2b8;
+  padding: 0;
+}
+
+.hamburger {
+  display: none;
+  margin: 0 20px 0 20px;
+}
+
+.navbar .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.navbar .nav-logo {
+  width: 15%;
+  margin: 0 20px 0 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .navibar {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 100px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+
+  .navbar .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar .nav-menu.active {
+    left: 0;
+  }
+
+  .navbar .nav-item {
+    margin: 0.8rem 0;
+  }
+
+  .navbar .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .navbar .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media (max-width: 650px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 90px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 80px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 75px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 70px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 60px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 55px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}

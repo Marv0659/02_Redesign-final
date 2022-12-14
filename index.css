@@ -1,0 +1,390 @@
+.main-forside {
+  max-width: 1000px;
+  overflow: hidden;
+
+  margin-inline: auto;
+}
+
+.MedicinForside {
+  margin: 50px;
+}
+
+.forside-div,
+#MedicinForside {
+  justify-content: center;
+  display: grid;
+  grid-row: span 3;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.Forside-div-pic {
+  display: grid;
+  grid-area: 1/2/7/7;
+  z-index: 1;
+  grid-area: 1/1/7/8;
+}
+
+.shapeDiv {
+  display: grid;
+  grid-area: 4/1/6/4;
+  z-index: 1;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #c7d9db;
+}
+
+.forsideBeskrivelse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kategorier-forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 3.1%;
+  margin-bottom: 30px;
+}
+
+.vi-tilbyder-forside {
+  display: flex;
+  margin: 20px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: space-between;
+  gap: 10%;
+}
+
+.vi-tilbyder-forside2 {
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10%;
+}
+
+.rectangle6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img_spis {
+  width: 100%;
+}
+.rectangle7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img_nakke {
+  width: 100%;
+}
+.rectangle8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.vitamin {
+  width: 100%;
+}
+
+.rectangle9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.stresset {
+  width: 100%;
+}
+
+.rectangle10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.kalk {
+  width: 100%;
+}
+
+.rectangle11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.vitaminer {
+  width: 100%;
+}
+
+.about {
+  margin-top: 20px;
+  background-color: #60b2b8cd;
+  height: 100px;
+  width: 100%;
+}
+
+.teatreepic {
+  width: 20%;
+}
+.kurserpic {
+  width: 20%;
+}
+
+figure {
+  float: right;
+  text-align: center;
+  text-indent: 0;
+  margin-bottom: 20px;
+}
+figure {
+  display: table;
+  cursor: pointer;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  font-size: larger;
+}
+img.scaled {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.kasser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-inline: auto;
+  align-self: center;
+}
+
+.box1 {
+  display: block;
+  position: relative;
+  aspect-ratio: 7/6;
+  background-image: url("billeder/akupunktur_forside-1.webp");
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+}
+
+.box2 {
+  display: block;
+  position: relative;
+  aspect-ratio: 7/6;
+  background-image: url("billeder/mangler_du_c-vitamin.webp");
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+}
+
+.tekst-box {
+  display: grid;
+  background-color: #c7d9db;
+  aspect-ratio: 3/1;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 17px;
+}
+
+.h4_forside {
+  margin-top: 60px;
+  background-color: #deedf0;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .MedicinForside {
+    margin: 50px;
+  }
+
+  .forside-div,
+  #MedicinForside {
+    justify-content: center;
+    display: grid;
+    grid-row: span 3;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    align-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .Forside-div-pic {
+    display: none;
+  }
+
+  .shapeDiv {
+    display: none;
+  }
+
+  .forsideBeskrivelse {
+    display: none;
+  }
+
+  .kategorier-forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 3%;
+    margin-bottom: 10px;
+  }
+
+  figcaption {
+    display: table-caption;
+    caption-side: top;
+    font-size: 1rem;
+  }
+
+  .vi-tilbyder-forside2 {
+    display: grid;
+    margin: 1px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  .rectangle6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img_spis {
+    width: 100%;
+  }
+  .rectangle7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img_nakke {
+    width: 100%;
+  }
+  .rectangle8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .vitamin {
+    width: 100%;
+  }
+
+  .rectangle9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stresset {
+    width: 100%;
+  }
+
+  .rectangle10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .kalk {
+    width: 100%;
+  }
+
+  .rectangle11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .vitaminer {
+    width: 100%;
+  }
+
+  .about {
+    margin-top: 20px;
+    background-color: #60b2b8cd;
+    height: 100px;
+    width: 100%;
+  }
+
+  .teatreepic {
+    width: 20%;
+  }
+  .kurserpic {
+    width: 20%;
+  }
+
+  figure {
+    float: right;
+    text-align: center;
+    text-indent: 0;
+    margin: 0.5em;
+  }
+
+  figcaption {
+    display: table-caption;
+    caption-side: top;
+  }
+
+  img.scaled {
+    width: 100%;
+  }
+
+  .kasser {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-inline: auto;
+    align-self: center;
+  }
+
+  .box1 {
+    display: block;
+    aspect-ratio: 5/7;
+    background-image: url("billeder/akupunktur_forside-1.webp");
+    background-size: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 75%;
+    margin-bottom: 20px;
+  }
+
+  .box2 {
+    display: block;
+    position: relative;
+    aspect-ratio: 5/7;
+    background-image: url("billeder/mangler_du_c-vitamin.webp");
+    background-size: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 75%;
+  }
+
+  .tekst-box {
+    background-color: #c7d9db;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+  }
+}
