@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <link rel="stylesheet" href="styles/mutual_style.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,15 +22,56 @@
 <body>
     <header>
         <nav>
+            <div class="navibar">
 
-            <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="webshop.html">Webshop</a></li>
-                <a class="logo" href="index.html"><img size src="Logo/logo_done.svg" alt=""></a>
-                <li><a href="kurser.html">Kurser</a></li>
-                <li><a href="omos.html">Om Os</a></li>
-            </ul>
+                <a href="services.html">Services</a>
+                <a href="webshop.html">Webshop</a>
+
+
+                <a class="logo" href="index.html"><img src="Logo/Asset-1.svg" alt=""></a>
+
+
+                <a href="kurser.html">Kurser</a>
+                <a href="omos.html">Om Os</a>
+
+
+                <select class="lang" name="sprog" id="lang">
+                    <option value="0">dk</option>
+                    <option value="1">ar</option>
+                    <option value="2">tr</option>
+                    <option value="3">en</option>
+                    <option value="3">nl</option>
+                </select>
+
+
+            </div>
+
+            <div class="navbar">
+                <a href="#" class="nav-logo"><img src="Logo/Asset-1.svg" alt=""></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="webshop.html" class="nav-link">Webshop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kurser.html" class="nav-link">Kurser</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="omos.html" class="nav-link">Om os</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+
         </nav>
+
+
     </header>
     <main>
         <div class="forside-div">
@@ -42,23 +84,21 @@
 
             <div class="shapeDiv">
                 <h2 class="forsideBeskrivelse">Velkommen til Krop & Medicin</h2>
-
-
             </div>
         </div>
 
         <div class="kategorier-forside">
 
-            <figure class="flex_con">
-                <a href="#"><img class=scaled src="billeder/kurser_book.webp" alt="Billede af kurser"></a>
+            <figure>
+                <a href="kurser.html"><img class=scaled src="billeder/kurser_book.webp" alt="Billede af kurser"></a>
                 <figcaption>Kurser</figcaption>
             </figure>
             <figure>
-                <a href="#"><img class=scaled src="billeder/webshop2.webp" alt="Billede af produkt"></a>
+                <a href="webshop.html"><img class=scaled src="billeder/webshop2.webp" alt="Billede af produkt"></a>
                 <figcaption>Webshop</figcaption>
             </figure>
             <figure>
-                <a href="#"><img class=scaled src="billeder/services.webp" alt="St. Tropez"></a>
+                <a href="services.html"><img class=scaled src="billeder/services.webp" alt="St. Tropez"></a>
                 <figcaption>Services</figcaption>
             </figure>
 
@@ -111,7 +151,7 @@
                 <img class="stresset" src="billeder/stresset_img.webp" alt="stress">
             </div>
             <div class="rectangle10">
-                <h4>Får du det kalk du skal have?</h4>
+                <h4>Får du nok kalk?</h4>
                 <img class="kalk" src="billeder/tabletter.webp" alt="kalk">
             </div>
             <div class="rectangle11">
@@ -164,7 +204,8 @@
         </div>
 
     </footer>
-    <script src="script.js"></script>
+    <script src="login.js"></script>
+    <script src="burger.js"></script>
 
 </body>
 
