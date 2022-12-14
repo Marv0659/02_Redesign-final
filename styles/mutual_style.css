@@ -132,6 +132,7 @@ footer {
   font-weight: 800;
   margin-bottom: 5px;
   color: white;
+  text-align: left;
 }
 
 .kasse {
@@ -183,7 +184,7 @@ button {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   h1,
   h2 {
     font-family: "Rhodium Libre", serif;
@@ -192,6 +193,8 @@ button {
 
   h1 {
     font-size: 3rem;
+    margin-top: 8.5%;
+    margin-bottom: 22px;
   }
 
   h3,
@@ -223,12 +226,16 @@ button {
   }
 
   nav .navibar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 20px;
     background-color: #60b2b8;
+    z-index: 100;
   }
 
   nav .navibar a {
@@ -302,6 +309,7 @@ button {
 
 .hamburger {
   display: none;
+  margin: 0 20px 0 20px;
 }
 
 .navbar .bar {
@@ -314,12 +322,9 @@ button {
   background-color: white;
 }
 
-.navbar .nav-menu {
-  display: none;
-}
-
 .navbar .nav-logo {
   width: 15%;
+  margin: 0 20px 0 20px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -332,10 +337,9 @@ button {
   }
 
   .navbar .nav-menu {
-    position: fixed;
-    display: flex;
-    left: -100%;
-    top: 8rem;
+    position: absolute;
+    left: -200%;
+    top: 100px;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
@@ -343,6 +347,7 @@ button {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
   }
 
   .navbar .nav-menu {
@@ -374,5 +379,101 @@ button {
 
   .navbar .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media (max-width: 650px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 90px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 80px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 75px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 70px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 60px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar .nav-menu {
+    position: absolute;
+    left: -200%;
+    top: 55px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 0;
   }
 }
