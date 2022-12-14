@@ -5,34 +5,6 @@
   margin-inline: auto;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  padding: 10px;
-  overflow: hidden;
-  background-color: #60b2b8;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  overflow: hidden;
-
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
 .MedicinForside {
   margin: 50px;
 }
