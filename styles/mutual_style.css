@@ -178,6 +178,13 @@ button {
   display: block;
 }
 
+select,
+#lang {
+  display: grid;
+  justify-content: end;
+  gap: 100px;
+}
+
 @media (max-width: 700px) {
   .footcol {
     width: 100%;
